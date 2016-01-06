@@ -27,6 +27,7 @@ JS Code
 HTML Template
 -------------
 ::
+
 	<final-countdown config="config"></final-countdown>
 
 Default Settings
