@@ -22,8 +22,16 @@ JS Code
 
 	$scope.config = {
 		countdown_from: 10 // 10 - 9 - 8 - 7 - ...
+		animate_colors: false
 	};
 
+	// ...
+	$scope.$broadcast('start-count-down');
+
+
+	//..
+	// If need be...
+	$scope.$broadcast('stop-couunt-down');
 HTML Template
 -------------
 ::
