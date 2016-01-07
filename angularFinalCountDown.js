@@ -39,7 +39,7 @@ angular.module('angularFinalCountDown', ['ng'])
 	            animate_colors: true,
 	            events: {
 	            	start_event: 'start-count-down',
-	            	start_event: 'stop-count-down'
+	            	stop_event: 'stop-count-down'
 	            },
 	            faces: [{
 	            	display: 'S',
